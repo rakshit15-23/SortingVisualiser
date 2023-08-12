@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <style>
+        /* Add padding to the time complexity and space complexity sections */
+        .time-complexity,
+        .space-complexity {
+            padding-left: 30px; /* Adjust this value as needed */
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="#"><strong class="heading">Sorting Visualizer</strong></a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="description">Welcome to the Sorting Visualizer project. This project allows you to visualize
+                    various sorting algorithms in action, helping you better understand how they work and compare their
+                    performance.</p>
+                <p class="description">Sorting is a fundamental concept in computer science and plays a crucial role in
+                    many applications. By observing the sorting algorithms in action, you can gain insights into their
+                    efficiency and behavior.</p>
+            </div>
+            <div class="col-md-10 offset-md-1">
+                <div id="bars" class="flex-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="Info_Cont1">
+                        <h3>TIME COMPLEXITY</h3>
+                        <div class="Complexity_Containers time-complexity" id="Time_Complexity_Types_Container">
+                            <div class="Pair_Definitions">
+                                <p class="Sub_Heading">Worst case:</p>
+                                <p id="Time_Worst"></p>
+                            </div>
+                            <div class="Pair_Definitions">
+                                <p class="Sub_Heading">Average case:</p>
+                                <p id="Time_Average"></p>
+                            </div>
+                            <div class="Pair_Definitions">
+                                <p class="Sub_Heading">Best case:</p>
+                                <p id="Time_Best"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="Info_Cont2">
+                        <h3>SPACE COMPLEXITY</h3>
+                        <div class="Complexity_Containers space-complexity" id="Space_Complexity_Types_Container">
+                            <div class="Pair_Definitions">
+                                <p class="Sub_Heading">Worst case:</p>
+                                <p id="Space_Worst"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-outline-light newArray">New Array</button>
+                <button type="button" class="btn btn-outline-light bubbleSort mb-2">Bubble Sort</button>
+                <button type="button" class="btn btn-outline-light selectionSort mb-2">Selection Sort</button>
+                <button type="button" class="btn btn-outline-light insertionSort mb-2">Insertion Sort</button>
+                <button type="button" class="btn btn-outline-light quickSort mb-2">Quick Sort</button>
+                <button type="button" class="btn btn-outline-light mergeSort mb-2">Merge Sort</button>
+                <div class="mt-3">
+                    <span class="nav-link">Size
+                        <input id="arr_sz" type="range" min="5" max="100" step=1 value=60>
+                    </span>
+                    <span class="nav-link">Speed
+                        <input id="speed_input" type="range" min="20" max="300" step=10 value=60>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Made by: Rakshit Chennagiri</p>
+        <p>Email: rakshitrao10@gmail.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="js_files/sorting.js"></script>
+    <script src="js_files/bubble.js"></script>
+    <script src="js_files/insertion.js"></script>
+    <script src="js_files/merge.js"></script>
+    <script src="js_files/quick.js"></script>
+    <script src="js_files/selection.js"></script>
+</body>
+
+</html>
