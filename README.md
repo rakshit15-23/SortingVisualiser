@@ -14,8 +14,7 @@ The Sorting Visualizer Project is a web application that allows users to visuali
   - Insertion Sort
   - Merge Sort
   - Quick Sort
-  - ... (you can add more sorting algorithms)
-
+    
 - Adjustable array size for sorting visualization.
 - Speed control to observe sorting process at different rates.
 - Color-coded visualization for better understanding of algorithm steps.
@@ -28,16 +27,13 @@ A live demo of the project is available [here](https://rakshit15-23.github.io/So
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/sorting-visualizer.git
+Clone the repository: git clone https://github.com/your-username/sorting-visualizer.git
 
 Navigate to the project directory: cd sorting-visualizer
 
 ## Usage
 
-1. Select a sorting algorithm from the dropdown menu.
+1. Select a sorting algorithm.
 2. Adjust the array size using the slider to control the number of elements to be sorted.
 3. Use the speed slider to control the sorting visualization speed.
 4. Click the "Generate New Array" button to create a new randomized array for sorting.
