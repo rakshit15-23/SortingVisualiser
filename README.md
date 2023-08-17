@@ -21,8 +21,6 @@ The Sorting Visualizer Project is a web application that allows users to visuali
 
 ## Demo
 
-![Sorting Visualizer Demo](download-2486_256.gif)
-
 A live demo of the project is available [here](https://rakshit15-23.github.io/SortingVisualiser/).
 
 ## Installation
