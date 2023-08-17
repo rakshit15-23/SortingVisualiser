@@ -21,7 +21,7 @@ The Sorting Visualizer Project is a web application that allows users to visuali
 
 ## Demo
 
-![Sorting Visualizer Demo](demo.gif)
+![Sorting Visualizer Demo](download-2486_256.gif)
 
 A live demo of the project is available [here](https://rakshit15-23.github.io/SortingVisualiser/).
 
@@ -39,7 +39,7 @@ Navigate to the project directory: cd sorting-visualizer
 4. Click the "Generate New Array" button to create a new randomized array for sorting.
 5. Click the "Sort" button to start the visualization of the selected sorting algorithm.
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
@@ -49,6 +49,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch: git push origin feature-name.
 5. Create a pull request describing your changes.
 
-##Contact
+## Contact
 
 For any questions or inquiries, please contact rakshitrao10@gmail.com.
